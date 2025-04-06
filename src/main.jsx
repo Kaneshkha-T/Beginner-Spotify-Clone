@@ -7,10 +7,10 @@ import Playercontextprovider from './context/Playercontext.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-   <BrowserRouter>
-        <Playercontextprovider>
+    <BrowserRouter basename="/Beginner-Spotify-Clone">
+      <Playercontextprovider>
         <App />
-        </Playercontextprovider>
-   </BrowserRouter>
+      </Playercontextprovider>
+    </BrowserRouter>
   </StrictMode>
 )
